@@ -1,0 +1,32 @@
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0 200px 10px 200px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;
+  position: sticky;
+  z-index: 999;
+  font-weight: 600;
+  color: #354657;
+}
+nav > ul {
+  justify-items: space-between;
+  list-style-type: none;
+  background-color: white;
+}
+.navlist > li {
+  display: inline;
+}
+.navlist > li,
+img {
+  padding: 14px 16px 14px 0;
+}
+h1 {
+  color: #354657;
+}
+div {
+  line-height: 40px;
+}
