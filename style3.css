@@ -2,25 +2,123 @@ body {
   margin-right: 15%;
   margin-left: 15%;
   margin-top: 30px;
-  background-color: #060c34;
+  background-color: #d6c5e8;
+  color: #060c34;
 }
 .banner {
   height: 40vh;
   border-style: solid;
   border-width: thin;
-  border-color: #e3c3db;
+  border-color: white;
   border-radius: 30px;
 }
-
-h1,
+.banner h1,
 h4 {
   color: #060c34;
   padding-left: 80px;
 }
-h1 {
+.banner h1 {
   margin-top: 40px;
   margin-bottom: 5px;
 }
 h4 {
   margin-top: 5px;
+}
+nav {
+  background-color: #060c34;
+  color: #e3c3db;
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 40px;
+  margin-top: 12px;
+  border-radius: 10px;
+}
+nav a {
+  text-decoration: none;
+  color: #e3c3db;
+}
+.item-1 a {
+  color: #060c34;
+}
+main {
+  height: 70vh;
+}
+aside {
+  width: 20%;
+  float: left;
+  height: 70vh;
+  padding-right: 40px;
+  padding-left: 20px;
+}
+button {
+  background-color: #e3c3db;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border-color: white;
+}
+.nav-borderitem {
+  width: 1px;
+  height: 20px;
+  background-color: #e3c3db;
+}
+.section-borderitem {
+  width: 1px;
+  height: 240px;
+  background-color: #060c34;
+  margin: auto;
+}
+.right-sections {
+  float: right;
+  width: 70%;
+}
+.item-3 h1 {
+  border-bottom: 1px solid #060c34;
+}
+.item-4-5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.item-5,
+.item-4 {
+  width: 45%;
+}
+footer {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #060c34;
+}
+form {
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 40%;
+  background-color: #060c34;
+  border-radius: 15px;
+  color: #e3c3db;
+}
+input,
+textarea {
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+input {
+  padding: 10px;
+}
+textarea {
+  padding: 30px;
+}
+#contact-inputs {
+  display: flex;
+  flex-direction: column;
+}
+#radio {
+  padding-bottom: 20px;
+}
+#footer-text {
+  padding: 10px;
 }
